@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    h1 {
+        color: black;
+    }
+    h1 span{
+        color: red;
+    }
+.navbar{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.navbar a:hover{
+    color: red;
+}
+.main-container{
+    text-align: center;
+}
+.content-container{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+}
+.text-container{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.text-container a {
+    text-decoration: none;
+    color: red;
+}
+
+.link-container{
+    width: 50%;
+    text-align: left;
+}
+
+.link-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table th, 
+table td  {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+
+}
+
+.center-year{
+    text-align: center;
+}
